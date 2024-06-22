@@ -50,7 +50,6 @@ int main(void)
 
 
 	
-	/* Replace with your application code */
 	while (1)
 	{
 		OCR2=read_adc(0);
@@ -65,9 +64,7 @@ int main(void)
 			PORTC &= ~(1 << 0);
 			PORTC &= ~(1 << 1);
 		}
-
-
-
+		
 	}
 }
 
